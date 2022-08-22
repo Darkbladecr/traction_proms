@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+numpy = "*"
+jupyter = "*"
+pandas-profiling = "*"
+statsmodels = "*"
+seaborn = "*"
+matplotlib = "*"
+plotnine = "*"
+numexpr = "*"
+bottleneck = "*"
+patsy = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
